@@ -1,0 +1,8 @@
+<?php
+
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    'Mdg_Entity',
+    __DIR__
+);
+

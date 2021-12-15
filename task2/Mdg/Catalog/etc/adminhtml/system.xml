@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="mdg_catalog_tab" translate="label" sortOrder="10">
+            <label>New Tab Mdg</label>
+        </tab>
+        <section id="mdg_catalog_section" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Mdg Section</label>
+            <tab>mdg_catalog_tab</tab>
+            <resource>Mdg_Catalog::acl_resource</resource>
+            <group id="group_product" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Mdg Group Product</label>
+                <field id="add_to_price" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Add to price</label>
+                    <validate>integer</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

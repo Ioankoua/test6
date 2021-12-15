@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <mdg_catalog_section>
+            <group_product>
+                <add_to_price>3</add_to_price>
+            </group_product>
+        </mdg_catalog_section>
+    </default>
+</config>
+
